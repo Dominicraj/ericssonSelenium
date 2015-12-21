@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<suite thread-count="5" skipfailedinvocationCounts="false" verbose="1" name="TestSuiteResults" junit="false" parallel="false" annotations="JDK">
+		<test verbose="2" name="TestResults" junit="false" annotations="JDK">
+				<classes>
+					<class name="atf.tv3hub.suite.TestActionableEventSuite"/>
+					<class name="atf.tv3hub.suite.TestIncidentSuite"/>
+			</classes>
+		</test>
+	</suite>

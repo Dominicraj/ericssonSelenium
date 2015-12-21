@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="153631" started-at="2015-08-26T12:13:53Z" finished-at="2015-08-26T12:16:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="153631" started-at="2015-08-26T12:13:53Z" finished-at="2015-08-26T12:16:26Z">
+      <class name="atf.tv3hub.suite.TestActionableEventSuite">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:atf.tv3hub.suite.TestActionableEventSuite@11ba57a]" name="setUpBeforeClass" is-config="true" duration-ms="6" started-at="2015-08-26T17:43:53Z" finished-at="2015-08-26T17:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="createIncidentFromAlarmView()[pri:0, instance:atf.tv3hub.suite.TestActionableEventSuite@11ba57a]" name="createIncidentFromAlarmView" duration-ms="153620" started-at="2015-08-26T17:43:53Z" finished-at="2015-08-26T17:46:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIncidentFromAlarmView -->
+        <test-method status="FAIL" signature="tearDownAfterClass()[pri:0, instance:atf.tv3hub.suite.TestActionableEventSuite@11ba57a]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2015-08-26T17:46:26Z" finished-at="2015-08-26T17:46:26Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Narayanan-PC', ip: '192.168.1.123', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Narayanan-PC', ip: '192.168.1.123', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:463)
+	at atf.tv3hub.common.Component.stopDriver(Component.java:85)
+	at atf.tv3hub.suite.TestActionableEventSuite.tearDownAfterClass(TestActionableEventSuite.java:258)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.run(TestNG.java:1036)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- atf.tv3hub.suite.TestActionableEventSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
